@@ -1,3 +1,7 @@
+// variables pointing to HTML classes
+const button = document.querySelector("button");
+const repairList = document.querySelector(".need-repair");
+
 // createVehicle factory function
 const createVehicle = function (type, numWheels, color) {
     const vehicle = {};
