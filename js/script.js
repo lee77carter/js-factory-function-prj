@@ -11,3 +11,13 @@ const createVehicle = function (type, numWheels, color) {
 const car = createVehicle("car", "4", "black");
 const bike = createVehicle("bike", "2", "red");
 const skateboard = createVehicle("skateboard", "4", "brown");
+
+// myVehicles array
+const myVehicles = [car, bike, skateboard];
+
+// Loops over the array of objects, properties & values
+for (let vehicle of myVehicles) {
+  for (let key in vehicle) {
+    console.log(key, vehicle[key]);
+  }
+}
