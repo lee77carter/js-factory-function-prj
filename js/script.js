@@ -21,3 +21,10 @@ for (let vehicle of myVehicles) {
     console.log(key, vehicle[key]);
   }
 }
+
+// Objects that need repair plus a event click button event
+bike.needsRepair = true;
+skateboard.needsRepair = true;
+
+button.addEventListener("click", function () {
+  repairList.innerHTML = "";
